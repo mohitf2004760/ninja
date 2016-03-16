@@ -1,5 +1,4 @@
-
-// server.js
+// server.js file
 // load the things we need
 var express = require('express');
 var app = express();
