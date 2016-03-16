@@ -1,0 +1,495 @@
+/* Navigation bar section */
+.padding-bottom-nav
+{
+    margin-bottom: -20px; !important;
+}
+.navbar {
+    background-color: white;
+
+}
+.navbar-brand
+{
+    padding: 0;
+
+}
+.nav .open > a
+{
+    background:#759ad6;
+//put styling
+}
+
+
+
+/*Carousel section */
+
+/* Carousel base class */
+.carousel {
+    height: 570px;
+    margin-bottom:0px;
+    padding-top: -20px;
+
+}
+
+.navbar-brand img
+{
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+#navHeaderCollapse
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 570px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 570px;
+}
+
+
+/* Jombotron wala section */
+
+.jumbotron-image
+{
+    height: 300px;
+    width: 300px;
+}
+.jumbo-no-pad-bottom
+{
+    margin-bottom: 0px;
+}
+h1.jumbo-text
+{
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+    color: #777777;
+    font-weight: bolder;
+}
+
+h2.jumbo-text {
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    color:#246F8F;
+    font-weight: bold;
+}
+
+/* ladki image attached wala section*/
+.fixed-background-1
+{
+
+    background-image: url("images/color-life.jpg");
+    opacity: 1;
+    max-height: 380px;
+    min-height: 380px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* color in hand wala section*/
+
+.fixed-background-2
+{
+    background-image: url("images/color-user-life.jpg");
+    opacity: 1;
+    max-height: 380px;
+    min-height: 380px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.background-size
+{
+
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+
+}
+
+/* why letsopenup wala section*/
+
+.small-text
+{
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #777777;
+    font-weight: lighter;
+    padding-top: 15px;
+
+
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+/* Featurettes section
+------------------------- */
+
+
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+/*footer */
+
+
+.footercss
+{
+    background: #333;
+    height: 150px;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Quick css*/
+
+
+.container-fluid {
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;    /* for making space bwtween 2 containers 0 */
+}
+
+.button-color
+{
+background-color:#246F8F ;
+}
+
+.panel-body-color
+{
+    background-color: #f9f2f4;
+}
+
+
+/*paddings */
+.pad-top2
+{
+    padding-top: 2%;
+}
+
+.pad2
+{
+    padding-top:3%;
+    padding-bottom: 2%;
+}
+
+
+.pad3
+{
+    padding-top: 8%;
+}
+
+
+/*-------------pricing page--------------------------
+---------------------------------------*/
+
+.pricing-heading
+{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 200;
+    color: darkgrey;
+    letter-spacing: .1em;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-family: Source Sans Pro, Lato, Helvetica Neue, sans-serif ;
+
+
+}
+
+
+.name-of-plan
+{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 200;
+    color: #777777;
+    letter-spacing: .1em;
+    margin-top: 5%;
+    margin-bottom: 2px;
+    font-family: Source Sans Pro, Lato, Helvetica Neue, sans-serif ;
+
+
+}
+
+.value-of-plan, .validity-of-plan, .slash, .money-sign, .small-text2
+{
+    text-align: center;
+    font-size: 65px;
+    font-weight: 200;
+    color:#246F8F ;
+    letter-spacing: .1em;
+    font-family: Source Sans Pro, Lato, Helvetica Neue, sans-serif ;
+
+
+}
+
+
+
+.validity-of-plan
+
+{
+    font-size: 15px;
+}
+
+.slash
+
+{
+    vertical-align: sub;
+    font-size: 30px;
+}
+
+.money-sign
+{
+    vertical-align: super;
+    font-size: 30px;
+    position: relative;
+    top: -0.8em;
+    left: 0.15em;
+
+}
+
+.small-text2
+{
+    font-size: 12px;
+    color: black;
+    margin-bottom: 8%;
+}
+
+.small-text3
+{
+    font-size: 15px;
+    font-weight: 200;
+    color: #777777;
+
+}
+
+.color-tick
+{
+    color: #246F8F;
+}
+
+.list-1:before    /*for tick sign in list*/
+{
+    content: '✔';
+    margin-left: -1em;
+    margin-right: .100em;
+}
+
+ul    /*for tick sign in list*/
+{
+    padding-left: 20px;
+    text-indent: 2px;
+    list-style: none;
+    list-style-position: outside;
+}
+
+
+.mycontent-left     /*for making a vertical line between two containers */
+{
+    border-right: 1px solid lightgray;
+
+}
+
+
+
+
+
+/*-------------join page--------------------------
+---------------------------------------*/
+
+
+.align-center-panel-box
+{
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 1em;
+    padding-right: 3%;
+}
+
+
+.login-signup-divider
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+hr.style-divider {
+    padding: 0;
+    text-align: center;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+hr.style-divider:after
+{
+    content: url("images/or.jpg");
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: transparent;
+}
+
+
+/*-------------diary page--------------------------
+---------------------------------------*/
+
+/* Tab Navigation */
+
+
+.nav-pill-style li.active a, .nav-pill-style li.active a:focus, .nav-pill-style li.active a:hover
+{
+    background-color: #246F8F;
+
+}
+
+
+.panel-bottom-color
+{
+    border: none;
+    box-shadow: none;
+}
+.pills-heading
+{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    margin-top:-1.4em;
+    width: 100%;
+    font-family: Source Sans Pro, Lato, Helvetica Neue, sans-serif ;
+
+
+
+}
+
+
+
+/* For smaller screens < 768 px */
+@media only screen and (max-width:768px) {
+    /* Carousel base class */
+    .carousel {
+        height: 250px;
+        margin-bottom: 0px;
+    }
+
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    /* Declare heights because of positioning of img element */
+    .carousel .item {
+        height: 250px;
+        background-color: #777;
+
+    }
+
+    .carousel-inner > .item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 250px;
+    }
+
+    /* jumbotext text and image size*/
+    h1.jumbo-text {
+        font-size: 30px;
+
+    }
+
+    h2.jumbo-text {
+        font-size: 30px;
+    }
+
+    .jumbotron-image {
+        height: 150px;
+        width: 150px;
+    }
+
+    /*ladki image wala section choti*/
+    .fixed-background-1 {
+
+        max-height: 250px;
+        min-height: 250px;
+    }
+
+    /* color in hand wala section*/
+    .fixed-background-2 {
+        max-height: 250px;
+        min-height: 250px;
+    }
+
+    /* why letsopenup wala section*/
+    .small-text {
+        font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+
+    }
+
+    .mycontent-bottom /*for making a horizontal line between two containers */
+    {
+        border-bottom: 1px solid lightgray;
+        border-right: hidden;
+        margin-bottom: 10px;
+
+    }
+
+    .pills-heading {
+        font-size: 13px;
+        letter-spacing: 0em;
+        margin-top: -2em;
+
+    }
+
+    .nav-justified > li {
+        display: table-cell;
+        width: 1%;
+
+    }
+
+
+}
+
+@media only screen and (min-width:1700px)
+{
+.footercss
+{
+    position: absolute;
+}
+}
+
+
+
+
+
+
